@@ -1,0 +1,27 @@
+{
+  "name": "sinon-clock-singleton",
+  "version": "1.0.0",
+  "description": "Singleton wrapper around sinon.useFakeTimers()",
+  "main": "lib/sinon-clock-singleton.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aerisweather/sinon-clock-singleton.git"
+  },
+  "keywords": [
+    "sinon",
+    "mocks",
+    "tests",
+    "stub",
+    "timers",
+    "clock"
+  ],
+  "author": "Edan Schwartz <edanschwartz@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aerisweather/sinon-clock-singleton/issues"
+  },
+  "homepage": "https://github.com/aerisweather/sinon-clock-singleton#readme"
+}
