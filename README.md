@@ -19,6 +19,12 @@ clock.useFakeTimers(25);
 clock.restore();
 ```
 
+### clock.useFakeTimersSafe()
+
+By default `sinon.useFakeTimers()` stubs out `setImmediate`, [which can wreack all sorts of havoc](https://github.com/sinonjs/sinon/issues/960).
+
+To avoid headaches, you can use `clock.useFakeTimersSafe()`, which stubs out all methods _except_ `setImmediate`. 
+
 ## Usage in tests
 
 If you're using a testing tool which supports `afterEach`, the clock will automatically be restored after each test.
