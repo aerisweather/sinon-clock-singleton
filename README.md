@@ -1,7 +1,13 @@
 sinon-clock-singleton
 =======
 
-Singleton wrapper around [`sinon.useFakeTimers()`](http://sinonjs.org/docs/#clock)
+A safer singleton wrapper around [`sinon.useFakeTimers()`](http://sinonjs.org/docs/#clock)
+
+## Installation
+
+Available on npm:
+
+`npm i --save-dev sinon-clock-singleton`
 
 ## Usage
 
@@ -13,7 +19,7 @@ clock.tick(100);
 
 // Restores the previous clock instance,
 // and resets the current time to 25ms
-clock.useFakeTimers(25);
+clock.useFakeTimersSafe(25);
 
 // Restores the system clock
 clock.restore();
