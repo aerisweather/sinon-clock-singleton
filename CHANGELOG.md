@@ -1,3 +1,7 @@
+# v2.0.1
+
+* Bug fixes, better understanding of lolex.
+
 # v2.0.0
 
 * Updated to sinon v8.x

@@ -25,6 +25,12 @@ describe("Clock Singleton", () => {
 		await immediate();
 		assert.ok(true);
 	})
+
+	it("should set our Date()", async () => {
+		clockSingleton.useFakeTimersSafe(123);
+		const mockedDate = new Date();
+		assert.equal(mockedDate.getTime(), 123);
+	})
 });
 
 async function immediate() {

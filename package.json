@@ -1,6 +1,6 @@
 {
   "name": "sinon-clock-singleton",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Singleton wrapper around sinon.useFakeTimers()",
   "main": "lib/sinon-clock-singleton.js",
   "scripts": {
